@@ -1,0 +1,59 @@
+
+body{
+    background-color: rgb(15, 37, 83);
+   
+    
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+.tab-section {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    width: 200px;
+    opacity: 0.8;
+    transition: transform 0.3s ease-in-out;
+}
+
+.tab-section:hover {
+    background-color: #f0f0f0;
+    cursor: pointer;
+    transform: scale(1.05);
+    
+}
+
+.tab-section h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.tab-section p {
+    font-size: 16px;
+    color: #666;
+}
+
+.tab-section:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.tab-section:nth-child(odd) {
+    background-color: #eaeaea;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    font-size: 70px;
+    color: white;
+   
+}

@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.help-center, .faq-section {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.help-center h2, .faq-section h2 {
+    color: #333;
+}
+
+.help-center form label, .faq-item label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.help-center form input[type="text"],
+.help-center form input[type="email"],
+.help-center form input[type="tel"],
+.help-center form textarea,
+.help-center form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.faq-item label {
+    cursor: pointer;
+}
+
+.faq-content {
+    display: none;
+    margin-top: 10px;
+}
+
+.faq-item input:checked + .faq-content {
+    display: block;
+}

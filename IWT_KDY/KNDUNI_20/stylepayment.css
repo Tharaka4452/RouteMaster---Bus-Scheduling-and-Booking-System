@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    background-image: url("isaac-82oHFwDbJok-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    opacity: 0.8;
+    font-family: "poppins";
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.payment-details, .your-order {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 0 20px;
+}
+
+.payment-details h2, .your-order h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.card-type img {
+    width: 50px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.expiration {
+    display: flex;
+    gap: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #0056b3;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #409e23;
+}
+
+.card-type{
+     padding: 15px 8px;   
+    
+}
+.your-order{
+  
+    height: 250px;
+    width: 200px;
+
+}
+.total-amount{
+    margin: 35px 5px 95px 5px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    background-image: url("isaac-82oHFwDbJok-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    opacity: 0.8;
+    font-family: "poppins";
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.payment-details, .your-order {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 0 20px;
+}
+
+.payment-details h2, .your-order h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.card-type img {
+    width: 50px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.expiration {
+    display: flex;
+    gap: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #0056b3;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #409e23;
+}
+
+.card-type{
+     padding: 15px 8px;   
+    
+}
+.your-order{
+  
+    height: 250px;
+    width: 200px;
+
+}
+.total-amount{
+    margin: 35px 5px 95px 5px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    background-image: url("isaac-82oHFwDbJok-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    opacity: 0.8;
+    font-family: "poppins";
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.payment-details, .your-order {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 0 20px;
+}
+
+.payment-details h2, .your-order h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.card-type img {
+    width: 50px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.expiration {
+    display: flex;
+    gap: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #0056b3;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #409e23;
+}
+
+.card-type{
+     padding: 15px 8px;   
+    
+}
+.your-order{
+  
+    height: 250px;
+    width: 200px;
+
+}
+.total-amount{
+    margin: 35px 5px 95px 5px;
+}

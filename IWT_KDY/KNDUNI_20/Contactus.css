@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family:"poppins";
+}
+
+body{
+    background-image: url("bus23.jpg");
+    background-size: cover;
+    margin: 0; 
+    padding: 0; 
+    background-position: center;
+    height: 120vh; 
+    margin: 0 auto;
+ 
+    .btnn{
+      position: fixed;
+      width: 100%;
+      height: 60px;
+      background-color: rgb(244, 243, 241);
+      border-radius: 8px;
+      display: flex;
+      justify-content: left;
+      align-items:center;
+      left: 0;
+      top: 140px;
+      z-index: 99999;
+      background-color: rgb(244, 243, 241);
+      float: left;
+      }
+
+      .nav1{
+        position: fixed;
+        width: 100%;
+        left: 0;
+        top: 0px;
+        z-index: 99999;
+        background-color: #1a4a88;
+        display: flex;
+        flex-direction: row; 
+        padding: rem 3rem;
+        align-items: center;
+        justify-content: space-between;
+        height:150px;
+        border-radius: 8px;
+    }
+  
+  .btnn a{
+      position: relative;
+      display: inline-block;
+      font-size: 1em;
+      font-weight: 500;
+      color: black;
+      text-decoration: none;
+      padding: 0 23px;
+      z-index: 1;
+  }
+  
+  .btnn span{
+      position: absolute;
+      top: 0;
+      left: 320px;
+      width: 110px ;
+      height: 100%;
+      background: linear-gradient(45deg, #1a4a88, #aecffa);
+      border-radius: 8px;
+      transition: .5s;
+      
+  }
+  
+  .btnn a:nth-child(1):hover~span
+  {
+      left: 0px;
+  }
+  .btnn a:nth-child(2):hover~span
+  {
+      left: 100px;
+  }
+  .btnn a:nth-child(3):hover~span
+  {
+      left: 200px;
+      width: 100px;
+  }
+  .btnn a:nth-child(4):hover~span
+  {
+      left: 300px;
+      width: 140px;
+  }
+  .btnn a:nth-child(5):hover~span
+  {
+      left: 440px;
+      width: 120px;
+  }
+  
+  
+  .logo img{
+      width: 180px; 
+      height: 120px; 
+      margin-left: 8px;
+      border-radius: 6px;
+     
+  }
+  
+  h1 {
+      font-size: 50px; 
+      color: white;
+  }
+  
+  button{
+      
+      border: none;
+      padding: 5px 20px;
+      margin-right: 20px;
+      border-radius: 20px;
+      background-color: rgb(246, 247, 249);
+      color: rgb(4, 4, 4);
+      
+  }
+  
+  .nav2{
+      background-color: rgb(244, 243, 241);
+      display: flex;
+      flex-direction: row; 
+      padding: 1rem 3rem;
+      align-items: center;
+      justify-content: space-between;
+      height: 3rem;
+      
+  }
+      
+
+
+    
+}
+  .container {
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+  }
+  
+  .contact-form {
+    margin: 80px 80px;
+    width: 400px;
+    background-color: #fff;
+    opacity: 0.85;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .form-group textarea {
+    height: 100px;
+    resize: vertical;
+  }
+  
+  .button-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .button-container button {
+    padding: 10px 20px;
+    background-color: #079c19;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .contact-info {
+    width: 300;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    background-color: rgb(248, 245, 244);
+    display: flex;
+    flex-direction: row; 
+    margin: 1000px 0 0 0;
+    padding: 1rem 3rem;
+    align-items: center;
+    justify-content: space-between;
+    height: 13rem;
+}

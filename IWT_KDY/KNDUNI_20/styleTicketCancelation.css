@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("rangga-cahya-nugraha--NqgMct64SE-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    opacity: 0.8; /* Adjust opacity */
+    font-family: 'poppins';
+  }
+  
+  .container {
+    background-color: white;
+    max-width: 400px;
+    margin: 80px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  select, input[type="checkbox"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #12cc47;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0d9943;
+  }
+  
+  #confirmationMessage {
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+  }
+  label {
+    display: inline;
+}  

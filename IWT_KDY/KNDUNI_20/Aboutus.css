@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family:"poppins";
+}
+
+body{
+    
+    
+    margin-top: 0px; 
+    padding-top: 30px;
+    background-position: center; 
+    height: 100vh; 
+   
+    
+    
+}
+
+
+
+.nav1{
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0px;
+    z-index: 99999;
+    background-color: #1a4a88;
+    display: flex;
+    flex-direction: row; 
+    padding: rem 3rem;
+    align-items: center;
+    justify-content: space-between;
+    height:150px;
+    border-radius: 8px;
+}
+
+
+
+.btnn{
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    background-color: rgb(244, 243, 241);
+    border-radius: 8px;
+    display: flex;
+    justify-content: left;
+    align-items:center;
+    left: 0;
+    top: 140px;
+    z-index: 99999;
+    background-color: rgb(244, 243, 241);
+    float: left;
+    }
+
+.btnn a{
+    position: relative;
+    display: inline-block;
+    font-size: 1em;
+    font-weight: 500;
+    color: black;
+    text-decoration: none;
+    padding: 0 23px;
+    z-index: 1;
+}
+
+.btnn span{
+    position: absolute;
+    top: 0;
+    left: 440px;
+    width: 120px ;
+    height: 100%;
+    background: linear-gradient(45deg, #1a4a88, #aecffa);
+    border-radius: 8px;
+    transition: .5s;
+    
+}
+
+.btnn a:nth-child(1):hover~span
+{
+    left: 0px;
+    width: 100px;
+}
+.btnn a:nth-child(2):hover~span
+{
+    left: 100px;
+}
+.btnn a:nth-child(3):hover~span
+{
+    left: 200px;
+    width: 100px;
+}
+.btnn a:nth-child(4):hover~span
+{
+    left: 300px;
+    width: 140px;
+}
+.btnn a:nth-child(5):hover~span
+{
+    left: 440px;
+    width: 120px;
+}
+
+
+.logo img{
+    width: 180px; 
+    height: 120px; 
+    margin-left: 8px;
+    border-radius: 6px;
+   
+}
+
+h1 {
+    font-size: 50px; 
+    color: white;
+}
+
+button{
+    
+    border: none;
+    padding: 5px 20px;
+    margin-right: 20px;
+    border-radius: 20px;
+    background-color: rgb(246, 247, 249);
+    color: rgb(4, 4, 4);
+    
+}
+
+
+
+.nav2{
+    background-color: rgb(244, 243, 241);
+    display: flex;
+    flex-direction: row; 
+    padding: 1rem 3rem;
+    align-items: center;
+    justify-content: space-between;
+    height: 3rem;
+    
+}
+
+
+
+.text{
+    color: rgb(10, 10, 10);
+    font-size: 25px;
+    opacity: 0.3;
+    height: 5px;
+    width: 350px;
+    padding: 25px 2px 15px 35px;
+}
+
+
+.Aboutus{
+    background-color: rgb(162, 162, 162);
+    height: 200px;
+    width: 100%;
+    text-align:center;
+
+    
+
+}
+
+
+.AB1{
+    
+    height: 100%;
+    width: 50%;
+    float: left;
+}
+.AB11{
+    
+    background-image: url("bus12.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment:local;
+    height: 50%;
+    width: 100%;
+    align-items: center;
+}
+
+.AB12{
+      
+    background-color: rgba(255, 255, 255, 0.367);
+    height: 350px;
+    width:700px;
+    margin: 15px; 
+    line-height: 170%;
+    align-items: center;
+    
+}
+
+.AB2{
+    
+    height: 100%;
+    width: 50%;
+    float: right;
+    
+}
+
+.AB21{
+   
+    background-color: rgba(255, 255, 255, 0.367);
+    height: 360px;
+    width: 100%;
+    margin-bottom: 0px;
+   
+    line-height: 200%;
+    border-radius: 10px;
+    
+    
+}
+
+h2{
+    padding-top: 15px;
+    text-align: center;
+    font-size:30px;
+}
+
+.PS1{
+    align-items: center;
+    font-size: 100px;
+}
+
+
+.AB22{
+    align-items: center;
+    background-image:url(bus\ 2.jpg);
+    background-size:cover;
+    background-position: center;
+    background-attachment:local;
+    margin: 60px;
+    height: 300px;
+    top: 0%;
+    width: 600px;
+}
+.AS1{
+   
+    text-align: center;
+    font-size:larger;
+    align-items: center;
+}
+
+.main{
+    background-color:rgba(184, 135, 11, 0.478);
+    width: 100%;
+    height: 300px;
+    align-items: center;
+    background-position: center; 
+    background-attachment: fixed;
+}
+
+footer{
+    background-color: rgb(248, 245, 244);
+    display: flex;
+    flex-direction: row; 
+    margin: 100px 0 0 0;
+    padding: 1rem 3rem;
+    align-items: center;
+    justify-content: space-between;
+    height: 13rem;
+}

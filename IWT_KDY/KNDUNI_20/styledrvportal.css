@@ -1,0 +1,66 @@
+body {
+    background-image: url("hobi-industri-C-zgN_LEKb8-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    opacity: 0.8;
+    font-family: "poppins";
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: rgb(5, 5, 5);
+}
+
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+#passenger-table-body tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+#bus-info{
+    background-color: white;
+    width: 400px;
+    border-radius: 5px;
+    padding: 15px;
+}
+#passenger-info{
+    background-color: white;
+    width: 400px;
+    border-radius: 5px;
+    padding: 15px;
+}
+#route-info{
+    background-color: white;
+    width: 400px;
+    border-radius: 5px;
+    padding: 15px;
+}
+.div1{
+    padding: 10px;
+}
+.div2{
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+}
